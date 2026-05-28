@@ -1,14 +1,27 @@
 {
-  "homepage": "https://Supriyaguntuku.github.io/tpo-partnership-keez-website",
+  "name": "tpo-partnership-keez-website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+
+  "homepage": "https://Supriyaguntuku.github.io/tpo-partnership-keez-website/",
 
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
 
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+
   "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.2.0",
+    "gh-pages": "^6.1.1"
   }
 }

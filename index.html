@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Partner with KeeZ Campus for future-ready student training. We offer internships, AI training, placements, and industry readiness programs for colleges and TPOs.">
+  <meta name="keywords" content="KeeZ Campus, EdTech, TPO Partnership, College Placements, Internships, AI Training, Keezenix Global">
+  <meta name="author" content="Keezenix Global">
+  <title>KeeZ Campus — TPO Partnership | Future-Ready Student Training</title>
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       NAVIGATION BAR
+       ═══════════════════════════════════════════════════════════════════════ -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main Navigation">
+    <div class="container">
+      <!-- Logo -->
+      <a href="#" class="navbar__logo" aria-label="KeeZ Campus Home">
+        <img src="assets/logo.png" alt="KeeZ Campus Logo" width="44" height="44" onerror="this.style.display='none'">
+        <span class="navbar__logo-text">
+          KeeZ Campus
+          <small>by Keezenix Global</small>
+        </span>
+      </a>
+
+      <!-- Navigation Links -->
+      <div class="navbar__links" id="navLinks">
+        <a href="#why-partner">Why Us</a>
+        <a href="#internships">Internships</a>
+        <a href="#training">Training</a>
+        <a href="#placement">Placements</a>
+        <a href="#benefits">Benefits</a>
+        <a href="#lead-form" class="navbar__cta">Partner Now</a>
+      </div>
+
+      <!-- Mobile Toggle -->
+      <button class="navbar__toggle" id="navToggle" aria-label="Toggle mobile menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Overlay -->
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       SECTION 1: HERO
+       ═══════════════════════════════════════════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero__grid"></div>
+    <div class="container">
+      <!-- Hero Content -->
+      <div class="hero__content">
+        <div class="hero__badge">
+          <span class="dot"></span>
+          Trusted by 50+ Colleges Across India
+        </div>
+
+        <h1 class="hero__title">
+          Partner with KeeZ Campus for <span class="highlight">Future-Ready Student Training</span>
+        </h1>
+
+        <p class="hero__subtitle">
+          Empower your students with industry-aligned internships, cutting-edge AI training, guaranteed placement assistance, and complete industry readiness — all through a single campus partnership.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#lead-form" class="btn btn--primary" id="cta-become-partner">
+            Become a Partner
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#contact" class="btn btn--outline" id="cta-contact-us">
+            Contact Us
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          </a>
+        </div>
+
+        <!-- Stats -->
+        <div class="hero__stats">
+          <div class="hero__stat">
+            <div class="hero__stat-number">500<span class="accent">+</span></div>
+            <div class="hero__stat-label">Students Trained</div>
+          </div>
+          <div class="hero__stat">
+            <div class="hero__stat-number">50<span class="accent">+</span></div>
+            <div class="hero__stat-label">College Partners</div>
+          </div>
+          <div class="hero__stat">
+            <div class="hero__stat-number">95<span class="accent">%</span></div>
+            <div class="hero__stat-label">Placement Rate</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual Card -->
+      <div class="hero__visual">
+        <div class="hero__visual-card">
+          <div class="hero__visual-features">
+            <div class="hero__feature-item">
+              <div class="hero__feature-icon hero__feature-icon--blue">🎓</div>
+              <div class="hero__feature-text">
+                <h4>Industry-Aligned Curriculum</h4>
+                <p>Courses designed with top recruiters</p>
+              </div>
+            </div>
+            <div class="hero__feature-item">
+              <div class="hero__feature-icon hero__feature-icon--green">🤖</div>
+              <div class="hero__feature-text">
+                <h4>AI-Powered Learning</h4>
+                <p>Hands-on AI & ML project experience</p>
+              </div>
+            </div>
+            <div class="hero__feature-item">
+              <div class="hero__feature-icon hero__feature-icon--purple">💼</div>
+              <div class="hero__feature-text">
+                <h4>Guaranteed Placements</h4>
+                <p>Direct hiring pipeline with 100+ companies</p>
+              </div>
+            </div>
+            <div class="hero__feature-item">
+              <div class="hero__feature-icon hero__feature-icon--orange">🚀</div>
+              <div class="hero__feature-text">
+                <h4>Real Internships</h4>
+                <p>Paid internship opportunities for students</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Floating badges -->
+        <div class="hero__float hero__float--1">⭐ 4.9 Partner Rating</div>
+        <div class="hero__float hero__float--2">🏆 Award-Winning Programs</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       SECTION 2: WHY PARTNER WITH KEEZ CAMPUS
+       ═══════════════════════════════════════════════════════════════════════ -->
+  <section class="why-partner" id="why-partner">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag section-tag--primary">Why Choose Us</span>
+        <h2 class="section-title">Why Partner with <span>KeeZ Campus</span>?</h2>
+        <p class="section-subtitle">We bring industry expertise directly to your campus, transforming students into job-ready professionals through proven training methodologies.</p>
+      </div>
+
+      <div class="why-partner__grid">
+        <!-- Card 1 -->
+        <div class="why-card reveal reveal-delay-1">
+          <div class="why-card__icon why-card__icon--1">📚</div>
+          <h3 class="why-card__title">Industry-Aligned Curriculum</h3>
+          <p class="why-card__text">Our curriculum is co-created with industry leaders, ensuring students learn exactly what employers demand in today's competitive job market.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="why-card reveal reveal-delay-2">
+          <div class="why-card__icon why-card__icon--2">⚙️</div>
+          <h3 class="why-card__title">Real-Time Projects</h3>
+          <p class="why-card__text">Students work on live industry projects, building portfolios that demonstrate practical skills and real-world problem-solving abilities.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="why-card reveal reveal-delay-3">
+          <div class="why-card__icon why-card__icon--3">👨‍🏫</div>
+          <h3 class="why-card__title">Expert Mentors</h3>
+          <p class="why-card__text">Learn from seasoned professionals with 10+ years of industry experience who guide students through personalized mentorship sessions.</p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="why-card reveal reveal-delay-4">
+          <div class="why-card__icon why-card__icon--4">🏢</div>
+          <h3 class="why-card__title">Internship Opportunities</h3>
+          <p class="why-card__text">Guaranteed internship placements across top companies, giving students hands-on experience before they even graduate.</p>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="why-card reveal reveal-delay-5">
+          <div class="why-card__icon why-card__icon--5">🎯</div>
+          <h3 class="why-card__title">Placement-Focused Learning</h3>
+          <p class="why-card__text">Every module is designed with placement outcomes in mind — from aptitude training to technical interviews and HR rounds.</p>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="why-card reveal reveal-delay-6">
+          <div class="why-card__icon why-card__icon--6">🌐</div>
+          <h3 class="why-card__title">Corporate Exposure</h3>
+          <p class="why-card__text">Regular industry visits, guest lectures by CXOs, and corporate culture workshops prepare students for the professional world.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       SECTION 3: INTERNSHIP PROGRAMS
+       ═══════════════════════════════════════════════════════════════════════ -->
+  <section class="internships" id="internships">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag section-tag--green">Our Programs</span>
+        <h2 class="section-title">Internship <span>Programs</span></h2>
+        <p class="section-subtitle">Explore our comprehensive internship domains designed to equip students with in-demand skills and real-world experience.</p>
+      </div>
+
+      <div class="internships__grid">
+        <!-- Full Stack Development -->
+        <div class="intern-card reveal reveal-delay-1">
+          <div class="intern-card__header">
+            <div class="intern-card__icon">💻</div>
+            <h3 class="intern-card__title">Full Stack Development</h3>
+            <p class="intern-card__desc">Build complete web applications from frontend to backend using modern technologies and deployment practices.</p>
+          </div>
+          <div class="intern-card__body">
+            <div class="intern-card__meta">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              Duration: 3–6 Months
+            </div>
+            <div class="intern-card__skills">
+              <span class="intern-card__skill">React</span>
+              <span class="intern-card__skill">Node.js</span>
+              <span class="intern-card__skill">MongoDB</span>
+              <span class="intern-card__skill">REST APIs</span>
+              <span class="intern-card__skill">Git</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- AI & Machine Learning -->
+        <div class="intern-card reveal reveal-delay-2">
+          <div class="intern-card__header">
+            <div class="intern-card__icon">🤖</div>
+            <h3 class="intern-card__title">AI & Machine Learning</h3>
+            <p class="intern-card__desc">Master artificial intelligence concepts, build ML models, and work with neural networks on real-world datasets.</p>
+          </div>
+          <div class="intern-card__body">
+            <div class="intern-card__meta">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              Duration: 4–6 Months
+            </div>
+            <div class="intern-card__skills">
+              <span class="intern-card__skill">Python</span>
+              <span class="intern-card__skill">TensorFlow</span>
+              <span class="intern-card__skill">NLP</span>
+              <span class="intern-card__skill">Deep Learning</span>
+              <span class="intern-card__skill">OpenAI</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Python Automation -->
+        <div class="intern-card reveal reveal-delay-3">
+          <div class="intern-card__header">
+            <div class="intern-card__icon">🐍</div>
+            <h3 class="intern-card__title">Python Automation</h3>
+            <p class="intern-card__desc">Automate repetitive tasks, build scripts, and create efficient workflows using Python and its powerful libraries.</p>
+          </div>
+          <div class="intern-card__body">
+            <div class="intern-card__meta">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              Duration: 2–4 Months
+            </div>
+            <div class="intern-card__skills">
+              <span class="intern-card__skill">Python</span>
+              <span class="intern-card__skill">Selenium</span>
+              <span class="intern-card__skill">APIs</span>
+              <span class="intern-card__skill">Scripting</span>
+              <span class="intern-card__skill">DevOps</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data Analytics -->
+        <div class="intern-card reveal reveal-delay-4">
+          <div class="intern-card__header">
+            <div class="intern-card__icon">📊</div>
+            <h3 class="intern-card__title">Data Analytics</h3>
+            <p class="intern-card__desc">Transform raw data into actionable insights using statistical analysis, visualization tools, and business intelligence.</p>
+          </div>
+          <div class="intern-card__body">
+            <div class="intern-card__meta">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              Duration: 3–5 Months
+            </div>
+            <div class="intern-card__skills">
+              <span class="intern-card__skill">SQL</span>
+              <span class="intern-card__skill">Power BI</span>
+              <span class="intern-card__skill">Excel</span>
+              <span class="intern-card__skill">Pandas</span>
+              <span class="intern-card__skill">Tableau</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Web Development -->
+        <div class="intern-card reveal reveal-delay-5">
+          <div class="intern-card__header">
+            <div class="intern-card__icon">🌐</div>
+            <h3 class="intern-card__title">Web Development</h3>
+            <p class="intern-card__desc">Create responsive, high-performance websites and web applications with modern frontend frameworks and tools.</p>
+          </div>
+          <div class="intern-card__body">
+            <div class="intern-card__meta">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              Duration: 2–4 Months
+            </div>
+            <div class="intern-card__skills">
+              <span class="intern-card__skill">HTML/CSS</span>
+              <span class="intern-card__skill">JavaScript</span>
+              <span class="intern-card__skill">React</span>
+              <span class="intern-card__skill">Figma</span>
+              <span class="intern-card__skill">UI/UX</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Growth Engineering -->
+        <div class="intern-card reveal reveal-delay-6">
+          <div class="intern-card__header">
+            <div class="intern-card__icon">📈</div>
+            <h3 class="intern-card__title">Growth Engineering</h3>
+            <p class="intern-card__desc">Blend technology with marketing strategies to drive user acquisition, engagement, and business growth at scale.</p>
+          </div>
+          <div class="intern-card__body">
+            <div class="intern-card__meta">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              Duration: 3–5 Months
+            </div>
+            <div class="intern-card__skills">
+              <span class="intern-card__skill">SEO</span>
+              <span class="intern-card__skill">Analytics</span>
+              <span class="intern-card__skill">A/B Testing</span>
+              <span class="intern-card__skill">Funnels</span>
+              <span class="intern-card__skill">CRM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       SECTION 4: AI & WEB DEVELOPMENT TRAINING
+       ═══════════════════════════════════════════════════════════════════════ -->
+  <section class="training" id="training">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Advanced Programs</span>
+        <h2 class="section-title">AI & Web Development <span>Training</span></h2>
+        <p class="section-subtitle">Comprehensive training programs that prepare students for the demands of modern software development and AI innovation.</p>
+      </div>
+
+      <div class="training__content">
+        <!-- Left: Feature list -->
+        <div class="training__features reveal">
+          <div class="training__feature">
+            <div class="training__feature-icon">🧠</div>
+            <div class="training__feature-content">
+              <h4>AI Tools Training</h4>
+              <p>Master ChatGPT, Copilot, MidJourney, and other generative AI tools used by leading tech companies worldwide.</p>
+            </div>
+          </div>
+
+          <div class="training__feature">
+            <div class="training__feature-icon">🖥️</div>
+            <div class="training__feature-content">
+              <h4>Frontend & Backend Development</h4>
+              <p>Build full-stack applications using React, Angular, Node.js, Python Django, and modern database technologies.</p>
+            </div>
+          </div>
+
+          <div class="training__feature">
+            <div class="training__feature-icon">🔧</div>
+            <div class="training__feature-content">
+              <h4>Real-World Projects</h4>
+              <p>Work on production-grade projects with industry mentors — from e-commerce platforms to AI-powered chatbots.</p>
+            </div>
+          </div>
+
+          <div class="training__feature">
+            <div class="training__feature-icon">☁️</div>
+            <div class="training__feature-content">
+              <h4>Cloud & Deployment Basics</h4>
+              <p>Learn AWS, Docker, CI/CD pipelines, and deployment strategies used by enterprise-scale organizations.</p>
+            </div>
+          </div>
+
+          <div class="training__feature">
+            <div class="training__feature-icon">🎯</div>
+            <div class="training__feature-content">
+              <h4>Career Readiness</h4>
+              <p>Resume reviews, LinkedIn optimization, portfolio building, and interview preparation tailored for tech careers.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Info card -->
+        <div class="training__visual reveal reveal-delay-2">
+          <div class="training__info-card">
+            <h3>🚀 What Students Gain</h3>
+            <ul class="training__info-list">
+              <li><span class="check">✓</span> Industry-recognized certification</li>
+              <li><span class="check">✓</span> Portfolio with 5+ real projects</li>
+              <li><span class="check">✓</span> Live coding & code review sessions</li>
+              <li><span class="check">✓</span> Weekly mentor office hours</li>
+              <li><span class="check">✓</span> Access to premium learning resources</li>
+              <li><span class="check">✓</span> Job referrals to hiring partners</li>
+              <li><span class="check">✓</span> Lifetime community membership</li>
+              <li><span class="check">✓</span> Hackathon & project showcase events</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       SECTION 5: PLACEMENT ASSISTANCE
+       ═══════════════════════════════════════════════════════════════════════ -->
+  <section class="placement" id="placement">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag section-tag--primary">Career Support</span>
+        <h2 class="section-title">Placement <span>Assistance</span></h2>
+        <p class="section-subtitle">End-to-end placement support that ensures every student is interview-ready and connected to the right opportunities.</p>
+      </div>
+
+      <div class="placement__grid">
+        <div class="placement-card reveal reveal-delay-1">
+          <div class="placement-card__icon">📝</div>
+          <h3 class="placement-card__title">Resume Building</h3>
+          <p class="placement-card__text">Professional resume crafting workshops with ATS-optimized templates and personalized feedback from HR experts.</p>
+        </div>
+
+        <div class="placement-card reveal reveal-delay-2">
+          <div class="placement-card__icon">🎤</div>
+          <h3 class="placement-card__title">Mock Interviews</h3>
+          <p class="placement-card__text">Realistic interview simulations with industry professionals covering technical, behavioral, and HR rounds.</p>
+        </div>
+
+        <div class="placement-card reveal reveal-delay-3">
+          <div class="placement-card__icon">🧮</div>
+          <h3 class="placement-card__title">Aptitude Training</h3>
+          <p class="placement-card__text">Intensive quantitative, logical reasoning, and verbal ability training to crack placement screening tests.</p>
+        </div>
+
+        <div class="placement-card reveal reveal-delay-4">
+          <div class="placement-card__icon">🤝</div>
+          <h3 class="placement-card__title">HR Sessions</h3>
+          <p class="placement-card__text">Dedicated sessions on salary negotiation, professional etiquette, and workplace communication skills.</p>
+        </div>
+
+        <div class="placement-card reveal reveal-delay-5">
+          <div class="placement-card__icon">🏭</div>
+          <h3 class="placement-card__title">Industry Hiring Support</h3>
+          <p class="placement-card__text">Direct connections to our network of 100+ hiring partners across IT, fintech, and emerging technology sectors.</p>
+        </div>
+
+        <div class="placement-card reveal reveal-delay-6">
+          <div class="placement-card__icon">🔗</div>
+          <h3 class="placement-card__title">Job Referrals</h3>
+          <p class="placement-card__text">Exclusive referral programs with top tech companies, ensuring fast-tracked interview processes for our students.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       SECTION 6: BENEFITS FOR COLLEGES
+       ═══════════════════════════════════════════════════════════════════════ -->
+  <section class="benefits" id="benefits">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag section-tag--green">For Colleges</span>
+        <h2 class="section-title">Benefits for <span>Your College</span></h2>
+        <p class="section-subtitle">Partnering with KeeZ Campus elevates your institution's reputation and delivers measurable outcomes for students and faculty alike.</p>
+      </div>
+
+      <div class="benefits__grid">
+        <div class="benefit-card reveal reveal-delay-1">
+          <div class="benefit-card__number">01</div>
+          <h3 class="benefit-card__title">Improved Placements</h3>
+          <p class="benefit-card__text">Boost your campus placement statistics with our structured training programs and direct employer connections.</p>
+        </div>
+
+        <div class="benefit-card reveal reveal-delay-2">
+          <div class="benefit-card__number">02</div>
+          <h3 class="benefit-card__title">Industry Collaboration</h3>
+          <p class="benefit-card__text">Establish direct partnerships with leading companies through KeeZ Campus's extensive corporate network.</p>
+        </div>
+
+        <div class="benefit-card reveal reveal-delay-3">
+          <div class="benefit-card__number">03</div>
+          <h3 class="benefit-card__title">Better Student Outcomes</h3>
+          <p class="benefit-card__text">Students graduate with practical skills, real project experience, and confidence to excel in the workplace.</p>
+        </div>
+
+        <div class="benefit-card reveal reveal-delay-4">
+          <div class="benefit-card__number">04</div>
+          <h3 class="benefit-card__title">Stronger Campus Branding</h3>
+          <p class="benefit-card__text">Position your college as a forward-thinking institution committed to producing industry-ready graduates.</p>
+        </div>
+
+        <div class="benefit-card reveal reveal-delay-5">
+          <div class="benefit-card__number">05</div>
+          <h3 class="benefit-card__title">Skill Development Ecosystem</h3>
+          <p class="benefit-card__text">Create a sustainable learning ecosystem with regular workshops, hackathons, and tech talks on campus.</p>
+        </div>
+
+        <div class="benefit-card reveal reveal-delay-6">
+          <div class="benefit-card__number">06</div>
+          <h3 class="benefit-card__title">Internship Support</h3>
+          <p class="benefit-card__text">Streamlined internship placement pipeline ensuring every eligible student gets hands-on industry experience.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       SECTION 7: STUDENT SKILL DEVELOPMENT
+       ═══════════════════════════════════════════════════════════════════════ -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag section-tag--primary">Holistic Growth</span>
+        <h2 class="section-title">Student Skill <span>Development</span></h2>
+        <p class="section-subtitle">We go beyond technical training to develop well-rounded professionals who excel in every dimension of their careers.</p>
+      </div>
+
+      <div class="skills__grid">
+        <div class="skill-card reveal reveal-delay-1">
+          <div class="skill-card__icon skill-card__icon--1">🗣️</div>
+          <h3 class="skill-card__title">Communication Skills</h3>
+          <p class="skill-card__text">Public speaking, presentation skills, email etiquette, and effective professional communication workshops.</p>
+        </div>
+
+        <div class="skill-card reveal reveal-delay-2">
+          <div class="skill-card__icon skill-card__icon--2">⌨️</div>
+          <h3 class="skill-card__title">Technical Skills</h3>
+          <p class="skill-card__text">Programming, data structures, algorithms, system design, and modern technology stack mastery.</p>
+        </div>
+
+        <div class="skill-card reveal reveal-delay-3">
+          <div class="skill-card__icon skill-card__icon--3">👥</div>
+          <h3 class="skill-card__title">Team Collaboration</h3>
+          <p class="skill-card__text">Agile methodologies, cross-functional teamwork, conflict resolution, and effective collaboration tools.</p>
+        </div>
+
+        <div class="skill-card reveal reveal-delay-4">
+          <div class="skill-card__icon skill-card__icon--4">🧩</div>
+          <h3 class="skill-card__title">Problem Solving</h3>
+          <p class="skill-card__text">Critical thinking, analytical reasoning, design thinking, and structured problem-solving frameworks.</p>
+        </div>
+
+        <div class="skill-card reveal reveal-delay-5">
+          <div class="skill-card__icon skill-card__icon--5">🛠️</div>
+          <h3 class="skill-card__title">Industry Tools Exposure</h3>
+          <p class="skill-card__text">Hands-on experience with Jira, GitHub, Slack, Figma, AWS, and other tools used by top tech companies.</p>
+        </div>
+
+        <div class="skill-card reveal reveal-delay-6">
+          <div class="skill-card__icon skill-card__icon--6">🏗️</div>
+          <h3 class="skill-card__title">Project Experience</h3>
+          <p class="skill-card__text">End-to-end project lifecycle management — from requirements gathering to deployment and maintenance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       SECTION 8: TPO LEAD GENERATION FORM
+       ═══════════════════════════════════════════════════════════════════════ -->
+  <section class="lead-form" id="lead-form">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag section-tag--green">Get Started</span>
+        <h2 class="section-title">Register Your <span>Interest</span></h2>
+        <p class="section-subtitle">Fill in the form below and our partnership team will get in touch within 24 hours to discuss a customized program for your college.</p>
+      </div>
+
+      <div class="lead-form__wrapper">
+        <!-- Left: Info Panel -->
+        <div class="lead-form__info reveal">
+          <h3>🤝 Why Register?</h3>
+          <p>By registering your interest, you unlock a world of opportunities for your students and campus. Here's what you get:</p>
+          <ul class="lead-form__benefits-list">
+            <li>
+              <span class="icon">📋</span>
+              Free campus training needs assessment
+            </li>
+            <li>
+              <span class="icon">🎁</span>
+              Complimentary demo session for students
+            </li>
+            <li>
+              <span class="icon">📊</span>
+              Custom program proposal within 48 hours
+            </li>
+            <li>
+              <span class="icon">💰</span>
+              Special early-partner pricing discounts
+            </li>
+            <li>
+              <span class="icon">🏆</span>
+              Priority access to placement drives
+            </li>
+            <li>
+              <span class="icon">📞</span>
+              Dedicated campus relationship manager
+            </li>
+          </ul>
+        </div>
+
+        <!-- Right: Form -->
+        <div class="lead-form__card reveal reveal-delay-2">
+          <h3>Partnership Inquiry Form</h3>
+          <p>All fields marked with <span style="color: var(--error);">*</span> are required.</p>
+
+          <form id="tpoForm" novalidate>
+            <!-- College Name -->
+            <div class="form-group">
+              <label for="collegeName">College Name <span class="required">*</span></label>
+              <input type="text" id="collegeName" class="form-input" placeholder="e.g., JNTU Hyderabad" autocomplete="organization">
+              <div class="form-error" id="collegeNameError">Please enter the college name.</div>
+            </div>
+
+            <!-- TPO Name -->
+            <div class="form-group">
+              <label for="tpoName">TPO / Contact Name <span class="required">*</span></label>
+              <input type="text" id="tpoName" class="form-input" placeholder="e.g., Dr. Raghav Sharma" autocomplete="name">
+              <div class="form-error" id="tpoNameError">Please enter the TPO name.</div>
+            </div>
+
+            <!-- Email -->
+            <div class="form-group">
+              <label for="email">Email Address <span class="required">*</span></label>
+              <input type="email" id="email" class="form-input" placeholder="e.g., tpo@college.edu.in" autocomplete="email">
+              <div class="form-error" id="emailError">Please enter a valid email address.</div>
+            </div>
+
+            <!-- Phone Number -->
+            <div class="form-group">
+              <label for="phone">Phone Number <span class="required">*</span></label>
+              <input type="tel" id="phone" class="form-input" placeholder="e.g., 9876543210" autocomplete="tel">
+              <div class="form-error" id="phoneError">Please enter a valid 10-digit phone number.</div>
+            </div>
+
+            <!-- Program Dropdown -->
+            <div class="form-group">
+              <label for="program">Interested Program <span class="required">*</span></label>
+              <select id="program" class="form-input">
+                <option value="">— Select a Program —</option>
+                <option value="Full Stack Development">Full Stack Development</option>
+                <option value="AI & Machine Learning">AI & Machine Learning</option>
+                <option value="Data Analytics">Data Analytics</option>
+                <option value="Python Automation">Python Automation</option>
+                <option value="Web Development">Web Development</option>
+                <option value="Internship Program">Internship Program</option>
+              </select>
+              <div class="form-error" id="programError">Please select a program.</div>
+            </div>
+
+            <!-- Submit -->
+            <button type="submit" class="form-submit-btn" id="formSubmitBtn">
+              Submit Partnership Inquiry →
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Stored Entries Display -->
+      <div class="stored-entries reveal" id="storedEntries">
+        <h3 class="stored-entries__title">
+          Submitted Inquiries
+          <span class="stored-entries__count" id="entriesCount">0</span>
+        </h3>
+        <div id="entriesTableContainer">
+          <!-- Dynamically populated by JS -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       SECTION 9: CONTACT
+       ═══════════════════════════════════════════════════════════════════════ -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag section-tag--primary">Reach Out</span>
+        <h2 class="section-title">Contact <span>Us</span></h2>
+        <p class="section-subtitle">Have questions? Our team is here to help you explore the best partnership options for your institution.</p>
+      </div>
+
+      <div class="contact__grid reveal">
+        <!-- Contact Information -->
+        <div class="contact__info">
+          <div class="contact__item">
+            <div class="contact__item-icon">📍</div>
+            <div class="contact__item-content">
+              <h4>Our Office</h4>
+              <p>3rd Floor, SBR Surya Pearl Building,<br>Hi-tech City, Hyderabad,<br>Telangana 500081</p>
+            </div>
+          </div>
+
+          <div class="contact__item">
+            <div class="contact__item-icon">📞</div>
+            <div class="contact__item-content">
+              <h4>Phone</h4>
+              <p><a href="tel:+919704399488">+91 9704399488</a></p>
+            </div>
+          </div>
+
+          <div class="contact__item">
+            <div class="contact__item-icon">✉️</div>
+            <div class="contact__item-content">
+              <h4>Email</h4>
+              <p><a href="mailto:Srikanth@Keezenix.com">Srikanth@Keezenix.com</a></p>
+            </div>
+          </div>
+
+          <div class="contact__item">
+            <div class="contact__item-icon">🕐</div>
+            <div class="contact__item-content">
+              <h4>Working Hours</h4>
+              <p>Monday – Saturday: 9:00 AM – 7:00 PM<br>Sunday: Closed</p>
+            </div>
+          </div>
+
+          <!-- Social Media -->
+          <div>
+            <h4 style="font-weight: 700; color: var(--gray-800); margin-bottom: 12px;">Follow Us</h4>
+            <div class="contact__social">
+              <a href="#" aria-label="LinkedIn" title="LinkedIn">💼</a>
+              <a href="#" aria-label="Twitter" title="Twitter">🐦</a>
+              <a href="#" aria-label="Instagram" title="Instagram">📷</a>
+              <a href="#" aria-label="Facebook" title="Facebook">👍</a>
+              <a href="#" aria-label="YouTube" title="YouTube">🎥</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Map Placeholder -->
+        <div class="contact__map">
+          <div class="contact__map-placeholder">
+            <div class="map-icon">🗺️</div>
+            <p>Hi-tech City, Hyderabad</p>
+            <div class="contact__map-address">
+              <p><strong>KeeZ Campus by Keezenix Global</strong><br>
+              3rd Floor, SBR Surya Pearl Building,<br>
+              Hi-tech City, Hyderabad,<br>
+              Telangana 500081, India</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       SECTION 10: FOOTER
+       ═══════════════════════════════════════════════════════════════════════ -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <!-- Brand Column -->
+        <div class="footer__brand">
+          <h3>KeeZ Campus</h3>
+          <p>Empowering the next generation of tech professionals through industry-aligned training, real-world projects, and guaranteed placement assistance.</p>
+          <span class="footer__brand-badge">🏢 A Unit of Keezenix Global</span>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4 class="footer__heading">Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="#why-partner">Why Partner</a></li>
+            <li><a href="#internships">Internships</a></li>
+            <li><a href="#training">Training</a></li>
+            <li><a href="#placement">Placements</a></li>
+            <li><a href="#benefits">College Benefits</a></li>
+          </ul>
+        </div>
+
+        <!-- Programs -->
+        <div>
+          <h4 class="footer__heading">Programs</h4>
+          <ul class="footer__links">
+            <li><a href="#internships">Full Stack Dev</a></li>
+            <li><a href="#internships">AI & ML</a></li>
+            <li><a href="#internships">Data Analytics</a></li>
+            <li><a href="#internships">Python Automation</a></li>
+            <li><a href="#internships">Growth Engineering</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div>
+          <h4 class="footer__heading">Contact</h4>
+          <div class="footer__contact-item">
+            <span class="footer__contact-icon">👤</span>
+            <span>Director: Srikanth K. Reddy</span>
+          </div>
+          <div class="footer__contact-item">
+            <span class="footer__contact-icon">📞</span>
+            <span><a href="tel:+919704399488">+91 9704399488</a></span>
+          </div>
+          <div class="footer__contact-item">
+            <span class="footer__contact-icon">✉️</span>
+            <span><a href="mailto:Srikanth@Keezenix.com">Srikanth@Keezenix.com</a></span>
+          </div>
+          <div class="footer__contact-item">
+            <span class="footer__contact-icon">📍</span>
+            <span>Hi-tech City, Hyderabad, Telangana</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer__bottom">
+        <p>© 2026 <a href="#">KeeZ Campus</a> by Keezenix Global. All rights reserved.</p>
+        <div class="footer__bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       SUCCESS POPUP MODAL
+       ═══════════════════════════════════════════════════════════════════════ -->
+  <div class="success-popup" id="successPopup" role="dialog" aria-modal="true" aria-labelledby="popupTitle">
+    <div class="success-popup__card">
+      <div class="success-popup__icon">✅</div>
+      <h3 id="popupTitle">Thank You!</h3>
+      <p>Your partnership inquiry has been submitted successfully. Our team will reach out within 24 hours.</p>
+      <button class="success-popup__close" id="popupClose">Got It</button>
+    </div>
+  </div>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+
+  <!-- JavaScript -->
+  <script src="./script.js"></script>
+</body>
+</html>

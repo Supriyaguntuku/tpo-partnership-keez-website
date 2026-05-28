@@ -1,0 +1,14 @@
+{
+  "homepage": "https://Supriyaguntuku.github.io/tpo-partnership-keez-website",
+
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
